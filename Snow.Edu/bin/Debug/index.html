@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        function fireEvent(name, data) {
+            alert(0);
+            //event = document.createEvent('MessageEvent');
+            //var origin = window.location.protocol + '//' + window.location.host;
+            //event.initMessageEvent(name, false, false, data, origin, 1234, window, null);
+            //document.dispatchEvent(event);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="fireEvent('applicationExit','');">退出</button>
+</body>
+</html>

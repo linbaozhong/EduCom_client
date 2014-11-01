@@ -1,0 +1,16 @@
+C:\Workspaces\Go\src\EduCom_client\Snow.Edu\Snow.Edu\bin\Debug\Snow.Edu.exe.config
+C:\Workspaces\Net\EduCom_client\Snow.Edu\Snow.Edu\bin\Debug\Snow.Edu.exe.config
+C:\Workspaces\Net\EduCom_client\Snow.Edu\bin\Debug\Snow.Edu.exe.config
+C:\Workspaces\Net\EduCom_client\Snow.Edu\bin\Debug\Snow.Edu.exe
+C:\Workspaces\Net\EduCom_client\Snow.Edu\bin\Debug\Snow.Edu.pdb
+C:\Workspaces\Net\EduCom_client\Snow.Edu\bin\Debug\Geckofx-Core.dll
+C:\Workspaces\Net\EduCom_client\Snow.Edu\bin\Debug\Geckofx-Winforms.dll
+C:\Workspaces\Net\EduCom_client\Snow.Edu\bin\Debug\Geckofx-Core.pdb
+C:\Workspaces\Net\EduCom_client\Snow.Edu\bin\Debug\Geckofx-Winforms.pdb
+C:\Workspaces\Net\EduCom_client\Snow.Edu\obj\Debug\Snow.Edu.csprojResolveAssemblyReference.cache
+C:\Workspaces\Net\EduCom_client\Snow.Edu\obj\Debug\Snow.Edu.Properties.Resources.resources
+C:\Workspaces\Net\EduCom_client\Snow.Edu\obj\Debug\Snow.Edu.csproj.GenerateResource.Cache
+C:\Workspaces\Net\EduCom_client\Snow.Edu\obj\Debug\Snow.Edu.exe
+C:\Workspaces\Net\EduCom_client\Snow.Edu\obj\Debug\Snow.Edu.pdb
+C:\Workspaces\Net\EduCom_client\Snow.Edu\obj\Debug\Snow.Edu.frmMain.resources
+C:\Workspaces\Net\EduCom_client\Snow.Edu\bin\Debug\index.html
