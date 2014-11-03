@@ -20,8 +20,22 @@ namespace Snow.Edu
             Xpcom.Initialize(XulStartUpPath);
             //GeckoWebBrowser.UseCustomPrompt();
             //Gecko.PromptFactory.PromptServiceCreator();
+            //GeckoWebBrowser.UseCustomPrompt();
+            //GeckoPreferences.User["browser.xul.error_pages.enabled"] = false;
+            //Gecko.GeckoPreferences.User["network.proxy.http"] = host;
+            //Gecko.GeckoPreferences.User["network.proxy.http_port"] = port;
+            //Gecko.GeckoPreferences.User["network.proxy.ssl"] = host; 
+            //Gecko.GeckoPreferences.User["network.proxy.ssl_port"] = port;
+            //Gecko.GeckoPreferences.User["network.proxy.type"] = 1;
+
             Xpcom.Initialize(XULRunnerLocator.GetXULRunnerLocation());
+            
+            GeckoPreferences.User["browser.xul.error_pages.enabled"] = true;
+
             GeckoPreferences.User["gfx.font_rendering.graphite.enabled"] = true;
+
+            GeckoPreferences.User["full-screen-api.enabled"] = true;
+
             Application.ApplicationExit += (sender, e) =>
             {
                 Xpcom.Shutdown();
@@ -31,9 +45,11 @@ namespace Snow.Edu
             Application.SetCompatibleTextRenderingDefault(false);
 
             var mainForm = new frmMain();
-            Gecko.LauncherDialog.Download += (s, e) => LauncherDialog_Download(mainForm, s, e);
+           
 
-            Application.Run(mainForm);
+           // Gecko.LauncherDialog.Download += (s, e) => LauncherDialog_Download(mainForm, s, e);
+
+           Application.Run(mainForm);
         }
 
         static void LauncherDialog_Download(IWin32Window owner, object sender, LauncherDialogEvent e)
